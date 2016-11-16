@@ -1,7 +1,7 @@
 'use strict'
 
 const Sequelize = require('sequelize')
-const db = require('APP/db')
+const db = require('/app/db')
 
 const Challenge = db.define('challenges', {
   objective: Sequelize.STRING,

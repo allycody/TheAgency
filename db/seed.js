@@ -1,4 +1,4 @@
-const db = require('APP/db')
+const db = require('/app/db')
 
 const seedUsers = () => db.Promise.map([
   {name: 'so many', email: 'god@example.com', password: '1234'},
